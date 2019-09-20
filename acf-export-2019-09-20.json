@@ -1,0 +1,138 @@
+[
+    {
+        "key": "group_5d6e4a34f250e",
+        "title": "Hero Frontpage",
+        "fields": [
+            {
+                "key": "field_5d6e4a3502763",
+                "label": "Background Image",
+                "name": "background_image",
+                "type": "image",
+                "instructions": "Place a background image for the homepage header here.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "medium",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": "png, jpg"
+            },
+            {
+                "key": "field_5d6e4a3502778",
+                "label": "Headline",
+                "name": "headline",
+                "type": "text",
+                "instructions": "Type the main page headline here.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5d6e4a350277e",
+                "label": "Paragraph Text",
+                "name": "paragraph",
+                "type": "text",
+                "instructions": "Insert a short paragraph of text here.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5d6e4f531645b",
+                "label": "Large Call To Action Button",
+                "name": "large_button",
+                "type": "group",
+                "instructions": "Please fill in the URL and the buton title",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "row",
+                "sub_fields": [
+                    {
+                        "key": "field_5d6e511d1645c",
+                        "label": "Button Link",
+                        "name": "button_link",
+                        "type": "link",
+                        "instructions": "URL Link goes here.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "array"
+                    },
+                    {
+                        "key": "field_5d6e52db1645d",
+                        "label": "Button Title",
+                        "name": "button_title",
+                        "type": "text",
+                        "instructions": "Place the button title here.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_type",
+                    "operator": "==",
+                    "value": "front_page"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]
