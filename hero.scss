@@ -1,0 +1,15 @@
+.hero.has-background {
+  overflow: hidden;
+  position: relative;
+}
+
+.hero-background {
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  position: absolute;
+  width: 100%;
+  &.is-transparent {
+    opacity: .3;
+  }
+}
